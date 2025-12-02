@@ -1,0 +1,23 @@
+{
+  "name": "rest_mongodb_proyecto",
+  "version": "1.0.0",
+  "description": "API REST MongoDB Proyecto Final",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon ./index.js"
+  },
+  "author": "AIEV",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.20.0",
+    "mongose": "^0.0.2-security"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
