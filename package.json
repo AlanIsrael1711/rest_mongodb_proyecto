@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "server": "node index.js"
+    "server": "nodemon ./index.js"
   },
   "author": "AIEV",
   "license": "ISC",
